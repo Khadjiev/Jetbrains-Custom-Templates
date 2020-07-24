@@ -39,6 +39,9 @@ public class ${NAME} {
      * @param inVals input values separated by space
      */
     private void solveProblem(String[] inVals) {
+        //[Optional] if int array is needed
+        // int[] arr = new int[inVals.length];
+        
         for (String val : inVals) {
             // walk with the solution
         }
