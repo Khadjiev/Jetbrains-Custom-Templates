@@ -20,12 +20,16 @@ public class ${NAME} {
 
         // The number of test cases
         int tc;
+        // [Optional] The number of input values
+        //int inputLenght;
         // Input values per each case, separated by space
         String[] inputValues;
 
         try {
             tc = Integer.parseInt(reader.readLine());
             while (tc-- != 0) {
+                // [Optional]
+                //inputLenght = Integer.parseInt(reader.readLine());
                 inputValues = reader.readLine().split(" ");
                 solveProblem(inputValues);
             }
@@ -39,11 +43,20 @@ public class ${NAME} {
      * @param inVals input values separated by space
      */
     private void solveProblem(String[] inVals) {
-        //[Optional] if int array is needed
-        // int[] arr = new int[inVals.length];
-        
         for (String val : inVals) {
             // walk with the solution
         }
+        
+        //[Optional] if int array is needed
+        //        int c = 0;
+        //        int[] arr = new int[inVals.length];
+        //
+        //        for (String val : inVals) {
+        //            arr[c++] = Integer.parseInt(val);
+        //        }
+        //
+        //        for (int i = 0; i < arr.length; i++) {
+        //            // walk with the solution
+        //        }
     }
 }
